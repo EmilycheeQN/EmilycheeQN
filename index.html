@@ -1,46 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Your Name – Architecture Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-  <h1>Your Name</h1>
-  <p>Architecture Graduate / Architectural Assistant</p>
-</header>
+<!-- NAV -->
+<nav>
+  <span class="logo">Your Name</span>
+  <div class="nav-links">
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="cv.pdf" target="_blank">CV</a>
+  </div>
+</nav>
 
-<section class="about">
-  <h2>About</h2>
+<!-- HERO -->
+<section class="hero">
+  <h1>Architecture Portfolio</h1>
   <p>
-    Short intro about your design interests, education, and experience.
+    Architectural Graduate · Urban Design · Conceptual & Technical Work
   </p>
 </section>
 
-<section class="projects">
+<!-- PROJECTS -->
+<section id="projects" class="projects">
   <h2>Selected Works</h2>
 
-  <div class="project">
-    <img src="images/project1/cover.jpg" alt="Project 1">
-    <h3>Project Title</h3>
-    <p>Brief description of the project.</p>
-  </div>
+  <div class="project-grid">
 
-  <div class="project">
-    <img src="images/project2/cover.jpg" alt="Project 2">
-    <h3>Project Title</h3>
-    <p>Brief description of the project.</p>
-  </div>
+    <a class="project-card" href="#">
+      <img src="images/project1/cover.jpg" alt="Project 1">
+      <div class="project-info">
+        <h3>Project Title</h3>
+        <p>Studio Project · 2024</p>
+      </div>
+    </a>
 
+    <a class="project-card" href="#">
+      <img src="images/project2/cover.jpg" alt="Project 2">
+      <div class="project-info">
+        <h3>Project Title</h3>
+        <p>Urban Design · 2023</p>
+      </div>
+    </a>
+
+    <a class="project-card" href="#">
+      <img src="images/project3/cover.jpg" alt="Project 3">
+      <div class="project-info">
+        <h3>Project Title</h3>
+        <p>Internship Work · 2023</p>
+      </div>
+    </a>
+
+  </div>
 </section>
 
-<section class="contact">
-  <h2>Contact</h2>
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About</h2>
+  <p>
+    I am an architecture graduate with experience in conceptual design,
+    technical drawings, and visual storytelling. My interests lie in
+    spatial narratives, urban systems, and human-scale architecture.
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
   <p>Email: your@email.com</p>
-  <a href="cv.pdf" target="_blank">Download CV</a>
-</section>
+  <p>© Your Name</p>
+</footer>
 
 </body>
 </html>
